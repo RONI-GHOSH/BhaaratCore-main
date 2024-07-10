@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  
+  <title>BhaaratCore | Signup Page | App Developement Company</title>
+  
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Roboto:400,700&display=swap"
+    rel="stylesheet" />
+  
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="login-container">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card my-5">
+          <div class="card-header text-center">
+            <img class="auth-img" src="./images/Logo.png">
+            <h3 class="form-heading my-2">Signup Form</h3> 
+          </div>
+          <div class="card-body">
+            <form id="signupForm">
+              <div class="d-flex">
+                <div class="form-group mr-3 w-50 m-1">
+                  <label for="firstName">First Name</label>
+                  <input type="text" class="form-control mt-1" id="firstName" placeholder="Enter first name" required>
+                  <div class="invalid-feedback">First name is required.</div>
+                </div>
+                <div class="form-group w-50 m-1">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" class="form-control mt-1" id="lastName" placeholder="Enter last name" required>
+                  <div class="invalid-feedback">Last name is required.</div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control my-1" id="email" placeholder="Enter email" required>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control my-1" id="password" placeholder="Password" required>
+                <div class="invalid-feedback">Password is required.</div>
+              </div>
+              <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-control my-1" id="confirmPassword" placeholder="Confirm password"
+                  required>
+                <div class="invalid-feedback">Passwords do not match.</div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block my-2">Signup</button>
+            </form>
+            <span class="redirect-text">
+              Already had an Account then, 
+              <a href="login.html">
+                Signin
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/circles.min.js"></script>
+  <script src="./js/custom.js"></script>
+</body>
+
+</html>
